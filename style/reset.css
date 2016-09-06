@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-size: 12px
+}
+
+img {
+  border: 0
+}
+
+li {
+  list-style: none
+}
+
+input, select, textarea {
+  outline: 0;
+  border: 0
+}
+
+textarea {
+  resize: none
+}
+
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
