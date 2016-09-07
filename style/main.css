@@ -278,20 +278,22 @@
   font-family: "新宋体";
 }
 
-.shopcontent li {
-  float: left;
-  width: 200px;
-  height: 396px;
-  border-top: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 3px solid #ff7201;
-}
-
-.shopcontent li:first-child {
+.content-side {
   width: 190px;
   height: 400px;
   border: none;
-  overflow: hidden;
+}
+
+.shopcontent {
+  border-top: 1px solid #ccc;
+  border-bottom: 3px solid #ff7201;
+}
+
+.shopcontent li {
+  float: left;
+  width: 201px;
+  height: 396px;
+  border-right: 1px solid #ccc;
 }
 
 .topcontent {
@@ -310,10 +312,8 @@
 .shopdes {
   width: 134px;
   text-align: center;
-  line-height: 18px;
   margin: 23px 0 0 30px;
-  font-family: "微软雅黑";
-  font-weight: bold;
+  font: bold 16px/24px "微软雅黑";
 }
 
 .price {
